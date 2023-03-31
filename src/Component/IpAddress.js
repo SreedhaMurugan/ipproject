@@ -1,16 +1,13 @@
-// import React, { useEffect,useState} from "react"
-import { Grid, Card, InputLabel} from "@mui/material";
+import { Grid, Card, InputLabel } from "@mui/material";
 
 
 
 const IpAddress = ({ details }) => {
   console.log(details, "this is......")
-  //     useEffect(()=>{
-  // },[])
-  // console.log(details)
+
   return (
     <>
-      {details?.query && <Card sx={{ width: '494px', padding: '10px', height: '200px', marginLeft: '347px' }}>
+      {details?.query && <Card sx={{ width: '494px', padding: '10px', height: '200px',  }}>
 
         <Grid  >
           <Grid container >

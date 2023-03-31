@@ -51,8 +51,10 @@ function Home() {
         <input placeholder="IP Address" variant="filled" className='in' onChange={(e) => setNewIp(e.target.value)} ></input>
         <Button variant="contained"   sx={{ color: '#f5f5f5', height: '50px', width: '100px', borderRadius: 0 }} onClick={IpTracker} >IpLookup</Button>
       </Grid>
-
+      <Grid sx={{width:"100hv",display:"flex",alignItems:"center",justifyContent:"center"}}>
       {success ? <IpAddress details={details} /> : <Error />}
+      </Grid>
+      
     </div>
   )
 }

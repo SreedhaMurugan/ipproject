@@ -11,18 +11,19 @@ import Home from './pages/Home';
 
 function App() {
 
-  const warplayout = (comp)=>{
-    return <MainLayout comp={comp}></MainLayout>
-  }
+  // const warplayout = (comp)=>{
+  //   return <MainLayout comp={comp}></MainLayout>
+  // }
   return (
     <div className="App">
     
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={warplayout(<Home />)} />
-          <Route path="/first" element={warplayout(<About />)} />
+          <Route path='/' element={<Home />} />
+          <Route path="/first" element={<About />} />
         </Routes>
       </BrowserRouter>
+      
 
     
 

@@ -1,34 +1,38 @@
-.im{
+.im {
   height: 58px !important;
   width: 58px !important;
-  padding:4px
+  padding: 4px
 }
-.box{
+
+.box {
   border-radius: 0px 0px 0px 0px;
   border-style: none;
-  width:auto;
-  height:80px;
- background-color: rgba(240, 248, 255, 0);
- margin-right: -15px;
+  width: auto;
+  height: 80px;
+  background-color: rgba(240, 248, 255, 0);
+  margin-right: -15px;
 
- 
+
 }
-.header{
+
+.header {
   background-color: rgba(240, 248, 255, 0);
 }
 
-.con{
+.con {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.in{
 
- width:394.33px;
- height:50px;
-  
+.in {
+
+  width: 394.33px;
+  height: 50px;
+
 }
-.btn{
+
+.btn {
   display: flex;
   align-items: center;
   justify-content: center;

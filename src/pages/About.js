@@ -1,10 +1,12 @@
 import Grid from '@mui/material/Grid'
 import { Box, Paper, Typography } from '@mui/material';
+import MainLayout from '../Layout/MainLayout';
 
 
 const About = () => {
 
    return (
+      <MainLayout>
       <Grid container sx={{ padding: 2, gap: 2 }}>
          <Grid item sm={12} lg={12}>
             <Paper elevation={3} sx={{background:'#00b0ff',marginTop:'150px'}}>
@@ -29,6 +31,7 @@ Attackers can use social engineering to deceive you into revealing your IP addre
         
 
       </Grid>
+      </MainLayout>
    );
 }
 export default About;

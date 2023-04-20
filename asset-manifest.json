@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ipproject/static/css/main.11f48940.css",
+    "main.js": "/ipproject/static/js/main.61962c39.js",
+    "static/js/787.6a4e0e64.chunk.js": "/ipproject/static/js/787.6a4e0e64.chunk.js",
+    "index.html": "/ipproject/index.html",
+    "main.11f48940.css.map": "/ipproject/static/css/main.11f48940.css.map",
+    "main.61962c39.js.map": "/ipproject/static/js/main.61962c39.js.map",
+    "787.6a4e0e64.chunk.js.map": "/ipproject/static/js/787.6a4e0e64.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.11f48940.css",
+    "static/js/main.61962c39.js"
+  ]
+}

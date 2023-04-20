@@ -6,7 +6,7 @@ import MainLayout from '../Layout/MainLayout';
 const About = () => {
 
    return (
-      <MainLayout>
+     <MainLayout>
       <Grid container sx={{ padding: 2, gap: 2 }}>
          <Grid item sm={12} lg={12}>
             <Paper elevation={3} sx={{background:'#00b0ff',marginTop:'150px'}}>

@@ -49,7 +49,7 @@ function Home() {
   }
 
   return (
-    <MainLayout>
+        <MainLayout>
         <Grid className='con'>
           <img src={Map_image} alt='' className="img2" />
         </Grid>
@@ -60,7 +60,8 @@ function Home() {
         <Grid sx={{ width: "100hv", display: "flex", alignItems: "center", justifyContent: "center" }}>
           {success ? <IpAddress details={details} /> : <Error />}
         </Grid>
-    </MainLayout>
+        </MainLayout>
+   
       
       
     
